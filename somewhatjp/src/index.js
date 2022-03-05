@@ -9,13 +9,13 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter basename="/">
       <App />
-    </BrowserRouter>
+    </HashRouter>
     ,
   </React.StrictMode>,
   document.getElementById("root")
