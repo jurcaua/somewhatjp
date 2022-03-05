@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/somewhatjp/static/css/main.073c9b0a.css",
+    "main.js": "/somewhatjp/static/js/main.5c07cc76.js",
+    "static/js/787.75baa1a1.chunk.js": "/somewhatjp/static/js/787.75baa1a1.chunk.js",
+    "static/media/logo.svg": "/somewhatjp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/somewhatjp/index.html",
+    "main.073c9b0a.css.map": "/somewhatjp/static/css/main.073c9b0a.css.map",
+    "main.5c07cc76.js.map": "/somewhatjp/static/js/main.5c07cc76.js.map",
+    "787.75baa1a1.chunk.js.map": "/somewhatjp/static/js/787.75baa1a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5c07cc76.js"
+  ]
+}
