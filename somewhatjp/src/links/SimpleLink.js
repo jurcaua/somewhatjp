@@ -28,10 +28,13 @@ const SimpleLink = ({ data: { title, url, description, icon } }) => {
         square
         sx={{
           backgroundColor: "white",
-          padding: "0.5vw 1.5vw 0.5vw 1.5vw",
+          padding: "0.3vw 1.5vw 0.3vw 1.5vw",
           borderBottom: "none",
           borderTop: "none",
           transition: "0.3s",
+          ".icon": {
+            color: "#7F00FF",
+          },
           ".description": {
             transition: "0.3s",
             color: "slategrey",
@@ -49,7 +52,7 @@ const SimpleLink = ({ data: { title, url, description, icon } }) => {
               marginRight: "0",
             },
             ".icon": {
-              animation: `${bounce} 1s`,
+              animation: `${bounce} 0.7s`,
               animationTimingFunction: `cubic-bezier(0.280, 0.840, 0.420, 1)`,
             },
           },
