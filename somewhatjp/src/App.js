@@ -5,17 +5,22 @@ import { Routes, Route, Link } from "react-router-dom";
 
 // Local
 import Home from "./home/Home";
-import Links from "./links/Links";
+import LinksRoot from "./links/LinksRoot";
+import { styled } from "@mui/system";
+
+const Root = styled("div")({
+  backgroundColor: "aliceblue",
+  height: "100vh",
+});
 
 const App = () => {
   return (
-    <div>
-      <Link to={`/`}>HOME</Link>
+    <Root>
       <Routes>
-        <Route exact path={`/links`} element={<Links />} />
+        <Route exact path={`/links`} element={<LinksRoot />} />
         <Route path={`/`} element={<Home />} />
       </Routes>
-    </div>
+    </Root>
   );
 };
 
