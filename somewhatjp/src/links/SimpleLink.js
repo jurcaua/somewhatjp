@@ -40,7 +40,7 @@ const SimpleLink = ({ data: { title, url, description, icon } }) => {
             color: "slategrey",
             marginLeft: "4px",
             marginRight: "4px",
-            marginTop: "1vh",
+            marginTop: "0.2vh",
             marginBottom: "1vh",
           },
           "&:hover": {
