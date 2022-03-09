@@ -43,7 +43,9 @@ const DisplayPicture = styled(Avatar)(({ theme }) => ({
   transition: "0.4s",
   border: "#7F00FF solid 2px",
   boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",
+  filter: "brightness(1.1)",
   "&:hover": {
+    filter: "brightness(1.25)",
     boxShadow:
       "rgba(240, 46, 170, 0.4) 2px 2px, rgba(240, 46, 170, 0.3) 4px 4px, rgba(240, 46, 170, 0.2) 6px 6px, rgba(240, 46, 170, 0.1) 8px 8px, rgba(240, 46, 170, 0.05) 10px 10px",
   },
