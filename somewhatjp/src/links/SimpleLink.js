@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Grid, Paper } from "@mui/material";
+import { Grid, Paper, Typography } from "@mui/material";
 
 import { bounce } from "../animations";
 
@@ -55,10 +55,17 @@ const SimpleLink = ({ data: { title, url, description, icon } }) => {
             <div className="icon">{icon}</div>
           </Grid>
           <Grid item>
-            <span className="title">{title}</span>
+            <Typography className="title" variant="body1">
+              {title}
+            </Typography>
           </Grid>
         </Grid>
-        {description && <p className="description">{description}</p>}
+
+        {description && (
+          <Typography className="description" variant="body2">
+            {description}
+          </Typography>
+        )}
       </Paper>
     </a>
   );
