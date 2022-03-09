@@ -1,17 +1,8 @@
 import React from "react";
 
 import { Grid, Paper } from "@mui/material";
-import { keyframes } from "@mui/system";
 
-const bounce = keyframes`
-    0%   { transform: scale(1,1);      }
-    10%  { transform: scale(1.1,.9);   }
-    30%  { transform: scale(.9,1.1);   }
-    50%  { transform: scale(1.05,.95); }
-    57%  { transform: scale(1,1);      }
-    64%  { transform: scale(1,1);      }
-    100% { transform: scale(1,1);      }
-`;
+import { bounce } from "../animations";
 
 const SimpleLink = ({ data: { title, url, description, icon } }) => {
   return (
@@ -27,6 +18,7 @@ const SimpleLink = ({ data: { title, url, description, icon } }) => {
         variant="outlined"
         square
         sx={{
+          textAlign: "left",
           backgroundColor: "white",
           padding: "0.3vw 1.5vw 0.3vw 1.5vw",
           borderBottom: "none",

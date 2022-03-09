@@ -1,7 +1,7 @@
 import "./App.css";
 
 // External Package Imports
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 // Local
 import Home from "./home/Home";
