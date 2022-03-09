@@ -18,14 +18,14 @@ export const main = [
     description: "My main platform for everything else. Easiest to catch me on here.",
   },
   {
-    title: `Ikinari Japanese`,
+    title: `Ikinari Japanese (Podcast)`,
     url: `https://anchor.fm/ikinarijapanese `,
     icon: <PodcastsIcon />,
     description:
       "Fully Japanese. Weekly, no-frills, casual conversation between a Japanese native and I about our daily lives. Probably the best way to keep up with what I'm up to recently.",
   },
   {
-    title: `Everyone's Mikata`,
+    title: `Everyone's Mikata (Podcast)`,
     url: `https://anchor.fm/mikata`,
     icon: <PodcastsIcon />,
     description:
