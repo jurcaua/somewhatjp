@@ -53,8 +53,10 @@ const LinksRoot = () => {
   return (
     <Root>
       <Title variant="h2">
-        somewhatjp
-        <Dot id="dot" />
+        <span style={{ position: "relative" }}>
+          somewhatjp
+          <Dot id="dot" />
+        </span>
       </Title>
       <DisplayPicture
         src={"/dp.jpg"}
