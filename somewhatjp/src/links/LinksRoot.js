@@ -14,14 +14,14 @@ const Root = styled(Grid)({
 });
 
 const Dot = styled("span")({
-  height: "8px",
-  width: "8px",
+  height: "6px",
+  width: "6px",
   backgroundColor: "red",
   borderRadius: "50%",
   display: "inline-block",
   position: "absolute",
-  top: "10px",
-  right: "calc(50% - 125px)",
+  top: "8px",
+  right: "calc(50% - 93px)",
   "&:hover": {
     animation: `${bounce} 0.4s infinite !important`,
     animationTimingFunction: `cubic-bezier(0.280, 0.840, 0.420, 1)`,
@@ -30,6 +30,7 @@ const Dot = styled("span")({
 
 const Title = styled(Typography)({
   textAlign: "center",
+  fontSize: "45px",
   "&:hover": {
     "#dot": {
       animation: `${bounce} 0.7s`,
@@ -73,7 +74,7 @@ const LinksRoot = () => {
           src={"/dp.jpg"}
           variant="circular"
           alt="somewhatjp display picture"
-          sx={{ width: 110, height: 110 }}
+          sx={{ width: 90, height: 90 }}
         />
       </Grid>
       <LinksGrid container direction="column">
